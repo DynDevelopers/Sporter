@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "8222551014",
+    "project_id": "sporter-2b0e3",
+    "storage_bucket": "sporter-2b0e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8222551014:android:f0ffab54e593038fb10427",
+        "android_client_info": {
+          "package_name": "com.dynamo.sporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8222551014-gptqpecarc3q2rfjmsta617vsb955mnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCszPsFtu9WjQnLe9IXffaq8CgFIUhLCmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8222551014-gptqpecarc3q2rfjmsta617vsb955mnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

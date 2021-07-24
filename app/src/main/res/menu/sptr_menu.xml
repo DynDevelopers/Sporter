@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sptr_user_profile"
+        android:title="@string/sptr_profile_uppercase" />
+
+    <item
+        android:id="@+id/sptr_create_challenge_menu_item"
+        android:title="@string/sptr_create_challenge_uppercase" />
+
+    <item
+        android:id="@+id/sptr_edit_club_profile"
+        android:title="@string/sptr_edit_club_profile" />
+    <item
+        android:id="@+id/my_chats"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/menu_item_chat_icon"
+        android:title="@string/sptr_chat" />
+
+    <item
+        android:id="@+id/sptr_mark_as_admin"
+        android:title="@string/sptr_mark_as_admin_uppercase" />
+
+    <item
+        android:id="@+id/sptr_unmark_as_admin"
+        android:title="@string/sptr_unmark_as_admin_uppercase" />
+
+    <item
+        android:id="@+id/sptr_logout"
+        android:title="@string/sptr_signout" />
+
+    <item
+        android:id="@+id/sptr_feedback"
+        android:title="@string/sptr_feedback" />
+
+    <item
+        android:id="@+id/sptr_about"
+        android:title="@string/sptr_about" />
+</menu>

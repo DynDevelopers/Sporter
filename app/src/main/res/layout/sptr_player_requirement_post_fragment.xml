@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".postfragments.PlayerRequirementPostFragment"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/sptr_player_requirement_preferred_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/sptr_arrow_back"
+            app:title="@string/app_name"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/title"
+            android:text="@string/spt_player_requirements_uppercase"
+            android:textAllCaps="true"
+            android:textColor="@color/color_title"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/sptr_player_requirement_preferred_sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sptr_preferred_sports_uppercase"
+            android:inputType="text"
+            android:autofillHints=""
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/sptr_player_requirement_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sptr_description_uppercase"
+            android:layout_marginTop="10dp"
+            android:autofillHints="" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sptr_submit"
+            android:backgroundTint="@color/color_button"
+            android:layout_margin="25dp"/>
+    </LinearLayout>
+</LinearLayout>

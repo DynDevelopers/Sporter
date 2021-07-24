@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MyChallengeDetailFragment"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_challenge_detail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="My Challenge Detail"
+            app:navigationIcon="@drawable/sptr_arrow_back"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="16dp"
+            tools:ignore="RtlSymmetry">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_sport"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                    <TextView
+                        android:id="@+id/details_sport_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Football"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_challenge_status"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                    <TextView
+                        android:id="@+id/details_challengeStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Active"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_challenge_date_uppercase"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                    <TextView
+                        android:id="@+id/details_cdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="12/31/2021"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_date_negotiable_uppercase"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                    <TextView
+                        android:id="@+id/details_dnegotiable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Yes"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_challenge_time_uppercase"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                    <TextView
+                        android:id="@+id/details_ctime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="12:30 PM"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_time_negotiable_uppercase"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                    <TextView
+                        android:id="@+id/details_tnegotiable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Yes"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_team_size_uppercase"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+
+                    <TextView
+                        android:id="@+id/details_teamSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="12"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sptr_approx_player_age_uppercase"
+                        android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+
+                    <TextView
+                        android:id="@+id/details_playersAgeGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="12"
+                        android:textSize="16sp"
+                        android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_location_uppercase"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                <TextView
+                    android:id="@+id/details_clocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Full Address"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_location_negotiable_uppercase"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                <TextView
+                    android:id="@+id/details_lnegotiable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="No"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_created_by_uppercase"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"/>
+                <TextView
+                    android:id="@+id/details_created_by"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text=" harris Nawrangy"
+                    android:textSize="16sp"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_description_uppercase"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                <TextView
+                    android:id="@+id/details_cdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Full Description"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="26dp">
+                <Button
+                    android:id="@+id/sptr_delete_challenge_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/color_button"
+                    android:text="Delete"
+                    android:layout_marginEnd="10dp"/>
+
+                <Button
+                    android:id="@+id/sptr_disbale_challenge_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/color_button"
+                    android:layout_toEndOf="@+id/sptr_delete_challenge_button"
+                    android:layout_marginStart="10dp"
+                    android:text="Disable" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

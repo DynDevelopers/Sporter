@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="16dp"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_club_name"
+            tools:text="Team Rockstar"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_user"
+            tools:text="Harris Paul"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            android:layout_toStartOf="@+id/message_time"
+            android:fontFamily="sans-serif-thin"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_time"
+            android:textSize="8sp"
+            android:layout_alignParentEnd="true"
+            tools:text="12/01/2021"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@android:color/darker_gray"
+            tools:ignore="SmallSp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_text"
+        tools:text="This is message text kjasdasdhkjasdhkasdhjasdlhasdkhasdkljhasdkasjdhas"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

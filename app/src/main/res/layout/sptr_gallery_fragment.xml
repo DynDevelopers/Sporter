@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GalleryFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/sptr_gallery_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/sptr_gallery_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/sptr_arrow_back"
+            app:title="Gallery"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/sptr_progress_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:layout_below="@+id/sptr_gallery_app_bar"
+        android:visibility="gone">
+        <ProgressBar
+            android:id="@+id/sptr_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sptr_gallery_app_bar"/>
+    <TextView
+        android:id="@+id/sptr_no_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_below="@+id/sptr_gallery_app_bar"
+        android:background="@color/black_overlay"
+        android:text="No Images" />
+
+    <RelativeLayout
+        android:id="@+id/selected_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/sptr_gallery_app_bar"
+        android:background="@android:color/background_dark"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/sptr_selected_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/sptr_upload_image_buttons"/>
+        <LinearLayout
+            android:id="@+id/sptr_upload_image_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/sptr_upload_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:text="Upload" />
+            <Button
+                android:id="@+id/sptr_cancel_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:text="Cancel" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

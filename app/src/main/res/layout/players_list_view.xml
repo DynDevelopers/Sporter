@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/sptr_player_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/FirebaseUI.Text.T09"
+        tools:text="Harris Nawrangy" />
+
+    <TextView
+        android:id="@+id/sptr_player_preferred_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sptr_player_full_name"
+        android:textAppearance="@style/FirebaseUI.Text.InputLabel"
+        tools:text="Preferred Sports: Football" />
+
+    <TextView
+        android:id="@+id/sptr_player_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sptr_player_preferred_sport"
+        android:textAppearance="@style/FirebaseUI.Text.InputLabel"
+        tools:text="Age: 22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/button_view"
+        android:textAppearance="@style/FirebaseUI.Text.InputLabel" />
+</RelativeLayout>

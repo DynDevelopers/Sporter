@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/challenge_post_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/list_divider"
+    android:dividerHeight="0.5dp"
+    android:padding="10dp"
+    tools:context=".ChallengePostListFragment" />

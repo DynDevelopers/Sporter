@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".profilesfragments.UserProfileFragment"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/sptr_usr_profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/sptr_arrow_back"
+            app:title="@string/sptr_profile_uppercase"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_uppercase"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"
+                    />
+                <TextView
+                    android:id="@+id/sptr_usr_fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"
+                    tools:text="Harris Nawrangy"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_preferred_sports_uppercase"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"
+                    />
+                <TextView
+                    android:id="@+id/sptr_usr_preferred_sport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"
+                    tools:text="Cricket"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sptr_email_uppercase"
+                android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+            <TextView
+                android:id="@+id/sptr_usr_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/FirebaseUI.Text.T11"
+                tools:text="harrisnawarangee91@gmail.com"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_age"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                <TextView
+                    android:id="@+id/sptr_usr_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"
+                    tools:text=": 22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sptr_gender"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+                <TextView
+                    android:id="@+id/sptr_usr_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/FirebaseUI.Text.T11"
+                    tools:text=": Male"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sptr_phoneno_uppercase"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+            <TextView
+                android:id="@+id/sptr_usr_phoneno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/FirebaseUI.Text.T11"
+                tools:text="9192093092"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sptr_location_uppercase"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+            <TextView
+                android:id="@+id/sptr_usr_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/FirebaseUI.Text.T11"
+                tools:text="India, Maharashtra, Mumbai, 401107 - Mira Road"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sptr_description_uppercase"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="@style/FirebaseUI.Text.InputLabel"/>
+            <TextView
+                android:id="@+id/sptr_usr_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/FirebaseUI.Text.T11"
+                tools:text="Full user description"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sptr_view_gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_button"
+            android:layout_marginTop="20dp"
+            android:text="@string/sptr_view_club_gallery"
+            />
+
+        <TextView
+            android:id="@+id/sptr_usr_not_added_to_club_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textAppearance="@style/FirebaseUI.Text.ErrorText"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/initial_home_screen_text"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/create_club_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_club"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:fontFamily="@font/hindsiliguribold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/color_button"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            tools:ignore="AllCaps" />
+        
+    </LinearLayout>
+</LinearLayout>

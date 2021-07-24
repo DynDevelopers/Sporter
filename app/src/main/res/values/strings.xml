@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">SPORTER</string>
+    <string name="username_hint">username</string>
+    <string name="username_uppercase">Username</string>
+    <string name="password_hint">password</string>
+    <string name="sptr_login_button">Login</string>
+    <string name="sptr_cancel_button">Cancel</string>
+    <string name="sptr_forgot_password">forgot password ?</string>
+    <string name="initial_home_screen_text">You are not part of any club or you haven\'t created any club. Wait until someone adds you to their club or click on the link below.</string>
+    <string name="search_clubs">Search Clubs</string>
+    <string name="create_club"><u>Create Club</u></string>
+    <string name="search_clubs_hint">Search clubs name, pincode, city etc.</string>
+    <string name="menu_item_home">Home</string>
+    <string name="menu_item_club_profile">Club Profile</string>
+    <string name="menu_item_my_challenges">My Challenges</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_view"><u>View</u></string>
+    <string name="club_profile">Club Profile</string>
+    <string name="sptr_club_name">Name</string>
+    <string name="sptr_date_created">Date Created</string>
+    <string name="sptr_clubs_location">Location</string>
+    <string name="sptr_club_owner">Club Owner</string>
+    <string name="sptr_view_players">View Players</string>
+    <string name="sptr_view_club_gallery">View Gallery</string>
+    <string name="sptr_club_description">Description</string>
+    <string name="sptr_club_owner_primary_contact_info">Primary Contact Info</string>
+    <string name="sptr_club_alternate_contact_info">Alternate Contact Info</string>
+    <string name="sptr_sport">Sport</string>
+    <string name="menu_item_edit">edit</string>
+    <string name="sptr_challenge_status">Status</string>
+    <string name="sptr_hint_firstname">firstname</string>
+    <string name="sptr_hint_lastname">lastname</string>
+    <string name="appbar_title_signup">SignUp</string>
+    <string name="sptr_hint_email">email</string>
+    <string name="sptr_hint_phoneno">phoneno</string>
+    <string name="sptr_phoneno_uppercase">PhoneNo</string>
+    <string name="sptr_signup_button_text">SignUp</string>
+    <string name="sptr_already_signup_click_here">Already SignUp? Click Here</string>
+    <string name="sptr_add_player_menu_item_title">Add Player</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="team_size">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string name="sptr_create_club">Create Club</string>
+    <string name="sptr_submit">Submit</string>
+    <string name="sptr_add_players">Add Players</string>
+    <string name="sptr_age">Age</string>
+    <string name="sptr_gender">Gender</string>
+    <string name="sptr_email_uppercase">Email</string>
+    <string name="sptr_preferred_sports_uppercase">Preferred Sports</string>
+    <string name="sptr_location_uppercase">Location</string>
+    <string name="sptr_description_uppercase">Description</string>
+    <string name="sptr_player_details_uppercase">Player Details</string>
+    <string name="spt_player_requirements_uppercase">Player Requirements</string>
+    <string name="sptr_remove_player_uppercase">Remove Player</string>
+    <string name="title_activity_splash_screen">FullscreenActivity</string>
+    <string name="sptr_signup_uppercase">SignUp</string>
+    <string name="sptr_country">Country</string>
+    <string name="sptr_state">State</string>
+    <string name="sptr_city">City</string>
+    <string name="sptr_pincode">Pincode</string>
+    <string name="sptr_mark_as_admin_uppercase">Mark as Admin</string>
+    <string name="sptr_unmark_as_admin_uppercase">Unmark as Admin</string>
+    <string name="sptr_signout">SignOut</string>
+    <string name="sptr_negotiable_lowercase">negotiable</string>
+    <string name="sptr_click_to_select_date_uppercase">Click to Select Date</string>
+    <string name="sptr_click_to_select_time_uppercase">Click to Select Time</string>
+    <string name="sptr_players_age_uppercase">Players Age</string>
+    <string name="sptr_challenge_location_uppercase">Challenge Location</string>
+    <string name="sptr_feedback">Feedback</string>
+    <string name="sptr_about">About</string>
+    <string name="sptr_create_challenge_uppercase">Create Challenge</string>
+    <string name="sptr_team_size_uppercase">Team Size</string>
+    <string name="sptr_challenge_date_uppercase">Challenge Date</string>
+    <string name="sptr_challenge_time_uppercase">Challenge Time</string>
+    <string name="sptr_time_negotiable_uppercase">Time Negotiable</string>
+    <string name="sptr_approx_player_age_uppercase">Player Age(Approx)</string>
+    <string name="sptr_chat">Chat</string>
+    <string name="sptr_location_negotiable_uppercase">Location Negotiable</string>
+    <string name="sptr_created_by_uppercase">Created By</string>
+    <string name="sptr_date_negotiable_uppercase">Date Negotiable</string>
+    <string name="sptr_view_club_detail_uppercase"><u>View Club Detail</u></string>
+
+    <string-array name="sports">
+        <item>Football</item>
+        <item>Cricket</item>
+        <item>BasketBall</item>
+        <item>Tennis</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sptr_message_lowercase">message</string>
+    <string name="sptr_profile_uppercase">Profile</string>
+    <string name="sptr_edit_club_profile">Edit Club Profile</string>
+
+</resources>

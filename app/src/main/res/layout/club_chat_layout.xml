@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_user"
+            tools:text="Harris Paul"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif-medium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_time"
+            android:layout_alignParentEnd="true"
+            tools:text="12/01/2021"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/darker_gray"
+            tools:ignore="RelativeOverlap,SmallSp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_text"
+        tools:text="This is message text kjasdasdhkjasdhkasdhjasdlhasdkhasdkljhasdkasjdhas"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+</LinearLayout>
